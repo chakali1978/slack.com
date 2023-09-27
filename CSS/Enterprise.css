@@ -1,0 +1,243 @@
+.signinbtn a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    /* border: 2px solid black; */
+}
+
+.etopmaincontainer{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.etopcontainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* align-self: center; */
+    /* border: 2px solid black; */
+}
+.etopcontainer_left{
+    width: 50%;
+    margin-right: 20px;
+}
+.etopcontainer_right{
+    width: 50%;
+    margin-left: 20px;
+    padding-bottom: 80px;
+    /* border: 2px solid black; */
+}
+
+.etopcontainer_right video{
+    height: 500px;
+    /* padding-left: 80px; */
+    /* width: 100%; */
+}
+.etopsmallhead{
+    font-size: 12px;
+    font-weight: bold;
+}
+.etophead{
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 65px;
+    padding-bottom: 20px;
+}
+.etopdescription{
+    font-size: 20px;
+    font-weight: 600;
+}
+.etopcolumnhead{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.elistitemcontainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    padding-bottom: 30px;
+    /* margin: 20px auto; */
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  .ecolumn {
+    flex-basis: 48%; /* Adjust this value for spacing between columns */
+    /* padding: 10px; */
+    /* background-color: #f7f7f7; */
+    /* border: 1px solid #ddd; */
+  }
+  .elistitem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .elistitem::before {
+    content: '\2713'; /* Unicode character for checkmark */
+    margin-right: 10px;
+    font-size: 16px;
+    color: #007bff; /* Adjust color as needed */
+  }
+
+  .whitebox_btn_epage {
+    width: 100%;
+    height: 60px;
+    font-weight: bold;
+}
+.companylogo_maincontainer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.company_logos {
+    width: 80%;
+    padding-bottom: 60px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+
+}
+
+.company1 {
+    width: 120px;
+    height: 50px;
+}
+
+.company2 {
+    width: 50px;
+    height: 50px;
+}
+
+.company3 {
+    width: 140px;
+    height: 35px;
+}
+
+.company4 {
+    width: 120px;
+    height: 35px;
+}
+
+.company5 {
+    width: 80px;
+    height: 30px;
+}
+
+.company6 {
+    width: 130px;
+    height: 35px;
+}
+.ems1_maincontainer{
+    background-color: #f4efe8;
+}
+.elistitem1::before {
+    color: #541554; /* Adjust color as needed */
+}
+.ems1head{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 35px;
+    line-height: 40px;
+}
+.elistitem1{
+    padding-bottom: 10px;
+}
+.ems1_description{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-style: oblique;
+}
+.ems1_namecontainer{
+    display: flex;
+    column-gap: 7px;
+    padding-bottom: 80px;
+}
+.ems1name{
+    font-weight: 600;
+}
+.elistitem2::before {
+    color: palevioletred; /* Adjust color as needed */
+}
+
+/* Media Query */
+@media screen and (max-width:500px){
+    .menu{
+        display: none;
+    }
+    .topright{
+        display: none;
+    }
+    .etopmaincontainer{
+        width: 100%;
+    }
+    .etopcontainer{
+        flex-direction: column;
+    }
+    .etopcontainer_left{
+        width: 100%;
+    }
+    .etopcontainer_right{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .vheight video{
+        height: 400px;
+    }
+    .ecrh video{
+        height: 250px;
+     
+    }
+    .etophead{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .etopdescription{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .elistitemcontainer{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    .company_logos{
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+    .ems1head{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .MS2_cardcontainer{
+        flex-wrap: wrap;
+    }
+    .btc_head h2{
+
+        font-size: 35px;
+    }
+    .BF_maincontainer{
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: flex-start;
+    }
+    .BF_logocontainer{
+        width: 90%;
+        justify-content: flex-start;
+        /* border: 2px solid black; */
+    }
+    .BF_container p{
+        display: none;
+    }
+    .Footer_left{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
